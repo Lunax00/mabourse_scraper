@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 from scraper import scrape_bourses
+from scraper import scrape_bourses
 
 app = Flask(__name__)
 
