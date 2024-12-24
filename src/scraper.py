@@ -1,5 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
+import time
+time.sleep(10)  # Délai de 2 secondes entre les requêtes
+
 
 def scrape_bourses():
     """Scrape les bourses depuis le site maBourse."""
